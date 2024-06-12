@@ -7,6 +7,7 @@ export default function Home() {
         <h1>DEV Branch</h1>
         <span>hahahah</span>
         <span>thri</span>
+        <span>thri</span>
       </div>
     </main>
   );
