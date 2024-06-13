@@ -1,14 +1,12 @@
-import Image from "next/image";
+import Navbar from "@/components//Home/Navbar";
+import HerroSection from "@/components/Home/HerroSection";
+
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
-        <h1>DEV Branch</h1>
-        <span>hahahah</span>
-        <span>thri</span>
-        <span>thri</span>
-      </div>
+    <main >
+        <Navbar />
+        <HerroSection />
     </main>
   );
 }
